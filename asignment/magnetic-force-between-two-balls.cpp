@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canPlace(vector<int>& position, int m, int dist) {
-        int count = 1;                 // place first ball
+        int count = 1;               
         int lastPos = position[0];
 
         for(int i = 1; i < position.size(); i++) {
