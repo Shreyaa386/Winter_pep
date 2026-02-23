@@ -1,0 +1,17 @@
+//MAX HEAP Explanation:
+//  A max heap is a binary tree data structure where each parent node is greater than or equal to its child nodes. This property ensures that the maximum element is always at the root of the tree. Max heaps are commonly used in priority queues and sorting algorithms like heapsort.
+//  In a max heap, the elements are typically stored in an array, and the relationships between parent and child nodes can be determined using simple index calculations. For any given node at index i:
+//  - The left child is located at index 2*i + 1    
+//  - The right child is located at index 2*i + 2
+//  - The parent node is located at index (i-1)/2
+//  The main operations on a max heap include:
+//  1. Insertion: When a new element is added to the heap, it is initially placed at the end of the array. The heap property is then restored by "bubbling up" the new element until it is in the correct position.
+//  2. Deletion: The maximum element (the root) can be removed from the heap. The last element in the array is moved to the root position, and the heap property is restored by "bubbling down" this element until it is in the correct position.
+//  3. Peek: This operation allows you to view the maximum element (the root) without removing it from the heap.
+//  Max heaps are efficient for implementing priority queues, where the highest priority element is always served first. They provide logarithmic time complexity for insertion and deletion operations, making them suitable for various applications in computer science.
+
+//synatx 
+// 1. Insertion: O(log n)
+// 2. Deletion: O(log n)    
+// 3. Peek: O(1)
+
